@@ -1,2 +1,2 @@
 # trabajointegrador
-Trabajo practico integrado Argentina Programa
+Trabajo practico integrador Argentina Programa
