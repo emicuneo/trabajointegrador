@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="./app.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="./diseñoform.css" />
+</head>
+
+<body>
+    <div class="articles">
+        <div class="article">
+            <form method="post" class="formulario">
+                <div class="article__img-wrapper">
+                    <img class="article__img" src="./0.jpg">
+                </div>
+                <div class="article__imput-wrapper">
+                    <h1 class="FormularioTitulo">SUBWAY BLANCO 7 X 11</h1>
+                    <label>Valor por m2</label>
+                    <input class="formInput" type="number" id="0" name="valor" min="0" max="10000" width="5px" readonly>
+                    <h3>Ingrese los m2 y presione calcular</h3>
+                    <label for="m2">M2 de superficie</label>
+                    <input class="formInput" type="number" id="0_m2" name="m2" min="0" max="100000" value="1" width="5px">
+                    <button class="formSubmit" type="button" id="btnactualizar"
+                        onclick="actualizarCantidad(0)">Calcular</button>
+                    <br>
+                    <label for="formInput">Cotización final</label>
+                    <input class="formInput" type="number" id="0_cotizacion" name="cotizacion" min="0" max="10000000"
+                        value="0" width="5px" readonly>
+            </form>
+        </div>
+        <div class="article">
+            <form method="post" class="formulario">
+                <div class="article__img-wrapper">
+                    <img class="article__img" src="./1.jpg">
+                </div>
+                <div class="article__imput-wrapper">
+                    <h1 class="FormularioTitulo">SUBWAY NEGRO 7 X 15 </h1>
+                    <label>Valor por m2</label>
+                    <input class="formInput" type="number" id="1" name="valor" min="0" max="10000"  width="5px" readonly>
+                    <h3>Ingrese los m2 y presione calcular</h3>
+                    <label for="m2">M2 de superficie</label>
+                    <input class="formInput" type="number" id="1_m2" name="m2" min="0" max="100000" value="1" width="5px">
+                    <button class="formSubmit" type="button" id="btnactualizar"
+                        onclick="actualizarCantidad(1)">Calcular</button>
+                    <br>
+                    <label for="formInput">Cotización final</label>
+                    <input class="formInput" type="number" id="1_cotizacion" name="cotizacion" min="0" max="10000000"
+                        value="0" width="5px" readonly>
+            </form>
+        </div>
+            <div class="article">
+                <form method="post" class="formulario">
+                    <div class="article__img-wrapper">
+                        <img class="article__img" src="./2.jpg">
+                    </div>
+                    <div class="article__imput-wrapper">
+                        <h1 class="FormularioTitulo">NEWPORT 10 X 10 </h1>
+                        <label>Valor por m2</label>
+                        <input class="formInput" type="number" id="2" name="valor" min="0" max="10000" width="5px" readonly>
+                        <h3>Ingrese los m2 y presione calcular</h3>
+                        <label for="m2">M2 de superficie</label>
+                        <input class="formInput" type="number" id="2_m2" name="m2" min="0" max="100000" value="1" width="5px">
+                        <button class="formSubmit" type="button" id="btnactualizar"
+                            onclick="actualizarCantidad(2)">Calcular</button>
+                        <br>
+                        <label for="formInput">Cotización final</label>
+                        <input class="formInput" type="number" id="2_cotizacion" name="cotizacion" min="0" max="10000000"
+                            value="0" width="5px" readonly>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
