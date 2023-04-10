@@ -16,7 +16,7 @@ header{
 menu{
     margin: 0%;
     padding: 0px;
-    background-image: url(/images/pisocompleto.jpg);
+    background-image: url(pisocompleto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -46,28 +46,28 @@ menu{
 }
 
 .catalogo{
-    background-image: url(/images/suelos-de-ceramica-768x514.webp);
+    background-image: url(catalogo.webp);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .nuestrasobras{
-    background-image: url(/images/obra.png);
+    background-image: url(obra.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .quienessomos{
-    background-image: url(/images/quienessomos.png);
+    background-image: url(quienessomos.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
 }
 
 .sucursales{
-    background-image: url(/images/sucursales.png);
+    background-image: url(sucursales.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
